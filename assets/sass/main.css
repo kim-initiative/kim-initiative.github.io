@@ -2714,11 +2714,21 @@ body.is-menu-visible #menu .inner {
   line-height: 2;
   text-transform: uppercase;
 }
+@media screen and (min-width: 1281px) {
+  #banner {
+    padding: 7em 0 8.25em 0;
+    background-color: #2e3141;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_large.png");
+    background-size: auto, cover;
+    background-position: center, center;
+    margin-bottom: -6.5em;
+  }
+}
 @media screen and (max-width: 1280px) {
   #banner {
     padding: 7em 0 8.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/test.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_medium.png");
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -2726,7 +2736,7 @@ body.is-menu-visible #menu .inner {
 }
 @media screen and (max-width: 980px) {
   #banner {
-    padding: 12em 3em 12.375em 3em;
+    padding: 7em 3em 7.375em 3em;
     margin-bottom: -4.75em;
   }
   #banner .inner {
@@ -2736,6 +2746,7 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 736px) {
   #banner {
     padding: 5em 2em 4.25em 2em;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_small.png");
     margin-bottom: -2.5em;
   }
   #banner .logo {
@@ -2792,11 +2803,21 @@ body.is-preload #banner p {
   line-height: 2;
   text-transform: uppercase;
 }
+@media screen and (min-width: 1281px) {
+  #wrapper > header {
+    padding: 9em 0 6.25em 0;
+    background-color: #2e3141;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_large.png");
+    background-size: auto, cover;
+    background-position: center, 0% 30%;
+    margin-bottom: -6.5em;
+  }
+}
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_medium.png");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -2805,6 +2826,7 @@ body.is-preload #banner p {
 @media screen and (max-width: 980px) {
   #wrapper > header {
     padding: 11em 3em 7.375em 3em;
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_small.png");
     background-size: auto, cover;
     background-position: center, 0% 0%;
     margin-bottom: -4.75em;
