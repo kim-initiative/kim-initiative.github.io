@@ -2712,7 +2712,6 @@ body.is-menu-visible #menu .inner {
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 2;
-  text-transform: uppercase;
 }
 @media screen and (min-width: 1281px) {
   #banner {
