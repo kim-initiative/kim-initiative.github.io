@@ -1926,6 +1926,16 @@ input[type=radio] + label:before {
 .image.fit img {
   width: 100%;
 }
+.image.portrait {
+  display: block;
+  margin: 0.25 0 2em 0;
+  width: 100%;
+}
+.image.portrait img {
+  max-height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .image.main {
   display: block;
   margin: 0 0 3em 0;
