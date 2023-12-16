@@ -24,6 +24,15 @@
 		img {
 			width: 100%;
 		}
+
+		@media only screen and (max-width: 600px) {
+			max-width: 100%; // Adjust this value as needed
+
+			img {
+				max-height: none;
+				object-fit: cover;
+			}
+		}
 	}
 
 	&.left {
@@ -36,6 +45,15 @@
 		float: right;
 		padding: 0 0 1em 1.5em;
 		top: 0.25em;
+
+		@media only screen and (max-width: 600px) {
+			max-width: 100%; // Adjust this value as needed
+
+			img {
+				max-height: none;
+				object-fit: cover;
+			}
+		}
 	}
 
 	&.fit {
@@ -69,5 +87,7 @@
 		img {
 			width: 100%;
 		}
+
 	}
+
 }
