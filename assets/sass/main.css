@@ -89,8 +89,8 @@ html {
 }
 
 body {
-  background-color: #2e3141;
-  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+  background-color: #25304a;
+  background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/bg.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -1726,7 +1726,7 @@ select {
 }
 select option {
   color: #ffffff;
-  background: #2e3141;
+  background: #25304a;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1807,7 +1807,7 @@ input[type=radio]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
   content: "\f00c";
-  color: #2e3141;
+  color: #25304a;
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
@@ -2402,7 +2402,7 @@ button:disabled,
 }
 .features article {
   padding: 1.75em 1.75em 0.1em 1.75em;
-  background-color: #353849;
+  background-color: #2b3753;
   border-radius: 5px;
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
@@ -2455,7 +2455,7 @@ button:disabled,
 /* Header */
 #header {
   transition: background-color 0.2s ease-in-out;
-  background-color: rgba(53, 56, 73, 0.95);
+  background-color: rgba(43, 55, 83, 0.95);
   height: 3.5em;
   left: 0;
   line-height: 3.5em;
@@ -2597,7 +2597,7 @@ button:disabled,
   -webkit-user-select: none;
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: rgba(46, 49, 65, 0.8);
+  background: rgba(37, 48, 74, 0.8);
   cursor: default;
   height: 100%;
   left: 0;
@@ -2746,8 +2746,8 @@ body.is-menu-visible #menu .inner {
 @media screen and (min-width: 1281px) {
   #banner {
     padding: 7em 0 8.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_large.png");
+    background-color: #25304a;
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/kim_initiative_wide_banner_large.png");
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -2756,8 +2756,8 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 1280px) {
   #banner {
     padding: 7em 0 8.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_medium.png");
+    background-color: #25304a;
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/kim_initiative_wide_banner_medium.png");
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -2775,7 +2775,7 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 736px) {
   #banner {
     padding: 5em 2em 4.25em 2em;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_small.png");
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/kim_initiative_wide_banner_small.png");
     margin-bottom: -2.5em;
   }
   #banner .logo {
@@ -2835,8 +2835,8 @@ body.is-preload #banner p {
 @media screen and (min-width: 1281px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_large.png");
+    background-color: #25304a;
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/kim_initiative_wide_banner_large.png");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -2845,8 +2845,8 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_medium.png");
+    background-color: #25304a;
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/kim_initiative_wide_banner_medium.png");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -2855,7 +2855,7 @@ body.is-preload #banner p {
 @media screen and (max-width: 980px) {
   #wrapper > header {
     padding: 11em 3em 7.375em 3em;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/kim_initiative_wide_banner_small.png");
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/kim_initiative_wide_banner_small.png");
     background-size: auto, cover;
     background-position: center, 0% 0%;
     margin-bottom: -4.75em;
@@ -2879,18 +2879,18 @@ body.is-preload #banner p {
 }
 
 .wrapper {
-  background-color: #2e3141;
+  background-color: #25304a;
   margin: 6.5em 0;
   position: relative;
 }
 .wrapper:before, .wrapper:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2325304a%3B' /%3E%3C/svg%3E");
 }
 .wrapper:before {
-  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+  box-shadow: inset 0 -1px 0 0 #25304a, 0 1px 0 0 #25304a;
 }
 .wrapper:after {
-  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+  box-shadow: inset 0 -1px 0 0 #25304a, 0 1px 0 0 #25304a;
 }
 .wrapper:before, .wrapper:after {
   background-repeat: no-repeat;
@@ -2922,64 +2922,64 @@ body.is-preload #banner p {
   width: 55em;
 }
 .wrapper.style2 {
-  background-color: #353849;
+  background-color: #2b3753;
 }
 .wrapper.style2:before, .wrapper.style2:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23353849%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232b3753%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style2:before {
-  box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+  box-shadow: inset 0 -1px 0 0 #2b3753, 0 1px 0 0 #2b3753;
 }
 .wrapper.style2:after {
-  box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+  box-shadow: inset 0 -1px 0 0 #2b3753, 0 1px 0 0 #2b3753;
 }
 .wrapper.style3 {
-  background-color: #3d4051;
+  background-color: #313e5c;
 }
 .wrapper.style3:before, .wrapper.style3:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23313e5c%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style3:before {
-  box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+  box-shadow: inset 0 -1px 0 0 #313e5c, 0 1px 0 0 #313e5c;
 }
 .wrapper.style3:after {
-  box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+  box-shadow: inset 0 -1px 0 0 #313e5c, 0 1px 0 0 #313e5c;
 }
 .wrapper.style4 {
-  background-color: #454858;
+  background-color: #384565;
 }
 .wrapper.style4:before, .wrapper.style4:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23454858%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23384565%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style4:before {
-  box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
+  box-shadow: inset 0 -1px 0 0 #384565, 0 1px 0 0 #384565;
 }
 .wrapper.style4:after {
-  box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
+  box-shadow: inset 0 -1px 0 0 #384565, 0 1px 0 0 #384565;
 }
 .wrapper.style5 {
-  background-color: #4d5060;
+  background-color: #3f4d6e;
 }
 .wrapper.style5:before, .wrapper.style5:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234d5060%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4d6e%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style5:before {
-  box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
+  box-shadow: inset 0 -1px 0 0 #3f4d6e, 0 1px 0 0 #3f4d6e;
 }
 .wrapper.style5:after {
-  box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
+  box-shadow: inset 0 -1px 0 0 #3f4d6e, 0 1px 0 0 #3f4d6e;
 }
 .wrapper.style6 {
-  background-color: #555867;
+  background-color: #465476;
 }
 .wrapper.style6:before, .wrapper.style6:after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867%3B' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23465476%3B' /%3E%3C/svg%3E");
 }
 .wrapper.style6:before {
-  box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+  box-shadow: inset 0 -1px 0 0 #465476, 0 1px 0 0 #465476;
 }
 .wrapper.style6:after {
-  box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+  box-shadow: inset 0 -1px 0 0 #465476, 0 1px 0 0 #465476;
 }
 .wrapper.spotlight {
   background-color: #25304a;
@@ -3207,8 +3207,8 @@ body.is-preload #banner p {
 }
 @media screen and (max-width: 1280px) {
   #footer {
-    background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-color: #25304a;
+    background-image: linear-gradient(to top, rgba(37, 48, 74, 0.8), rgba(37, 48, 74, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
