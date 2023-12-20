@@ -202,10 +202,6 @@ p {
   margin: 0 0 2em 0;
 }
 
-p.heavy {
-  font-weight: bold;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   font-family: Raleway, Helvetica, sans-serif;
@@ -2703,6 +2699,20 @@ body.is-menu-visible #menu .inner {
   margin: 0 auto;
   width: 55em;
 }
+#banner .inner p {
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  font-weight: 600;
+  transform: translateX(0);
+  transition-delay: 0.8s;
+  -moz-filter: blur(0);
+  -ms-filter: blur(0);
+  filter: blur(0);
+  opacity: 1;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  line-height: 2;
+}
 #banner .logo {
   transition: opacity 2s ease, transform 1s ease;
   transform: translateY(0);
@@ -2733,8 +2743,21 @@ body.is-menu-visible #menu .inner {
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
 }
+#banner h3 {
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  transform: translateX(0);
+  transition-delay: 0.65s;
+  -moz-filter: blur(0);
+  -ms-filter: blur(0);
+  filter: blur(0);
+  opacity: 1;
+  font-size: 1.25em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+}
 #banner p {
   transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+  font-weight: 600;
   transform: translateX(0);
   transition-delay: 0.8s;
   -moz-filter: blur(0);
@@ -2743,7 +2766,6 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 2;
 }
