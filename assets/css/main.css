@@ -202,6 +202,10 @@ p {
   margin: 0 0 2em 0;
 }
 
+p.heavy {
+  font-weight: 500;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   font-family: Raleway, Helvetica, sans-serif;
